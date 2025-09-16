@@ -1,0 +1,13 @@
+@extends('layouts/master')
+@section('titolo')
+    Homepage
+@endsection
+@section('contenuto')
+    <h1>Home</h1>
+    <hr>
+    <x-card>
+        <x-slot:title>Title</x-slot>
+        <x-slot:subtitle>Subtitle</x-slot>
+        Contenuto
+    </x-card>
+@endsection
